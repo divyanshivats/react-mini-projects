@@ -1,0 +1,21 @@
+.dropdown-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+select {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #4caf50;
+  outline: none;
+  width: 100%;
+  max-width: 400px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  transition: 0.3s ease;
+}
+
+select:hover {
+  border-color: #81c784;
+}
