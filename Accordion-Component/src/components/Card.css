@@ -54,3 +54,31 @@ body {
   line-height: 1.5;
   padding-left: 4px;
 }
+
+@media (max-width: 480px) {
+  .accordion-container {
+    padding: 0 12px;
+  }
+
+  .accordion-title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .accordion-header {
+    font-size: 14px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .accordion-icon {
+    font-size: 16px;
+    margin-left: auto; /* Push it to the right */
+  }
+
+  .accordion-content {
+    font-size: 13.5px;
+    margin-top: 6px;
+  }
+}
