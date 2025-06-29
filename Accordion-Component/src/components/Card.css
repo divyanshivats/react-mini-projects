@@ -1,0 +1,56 @@
+/* GitHub-style Accordion — Super Clean */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 'Helvetica Neue', sans-serif;
+  background-color: #f6f8fa;
+  margin: 0;
+  padding: 0;
+}
+
+.accordion-container {
+  max-width: 680px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.accordion-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #24292f;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.accordion-item {
+  border-top: 1px solid #d0d7de;
+  padding: 16px 0;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-size: 15px;
+  color: #1f2328;
+  font-weight: 500;
+  gap: 200px;
+}
+
+.accordion-header:hover {
+  background-color: #f3f4f6;
+}
+
+.accordion-icon {
+  font-size: 16px;
+  color: #6e7781;
+  user-select: none;
+}
+
+.accordion-content {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #57606a;
+  line-height: 1.5;
+  padding-left: 4px;
+}
