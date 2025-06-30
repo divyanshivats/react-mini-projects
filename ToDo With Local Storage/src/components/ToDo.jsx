@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import "./Todo.css";
+import "./todo.css";
 import useToDoStorage from "./useToDoStorage";
 const ToDo = () => {
   const [values, setValue] = useState("");
