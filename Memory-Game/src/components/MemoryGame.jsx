@@ -7,7 +7,7 @@ const MemoryGame = ({ images }) => {
   const [flippedCards, setFlippedCards] = useState([]);
 
   const handleCardClick = (id) => {
-    if (flippedCards.length > 2) return;
+    if (flippedCards.length >= 2) return;
 
     const updatedCard = cards.map((card) => {
       if (card.id === id) {
