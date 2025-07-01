@@ -49,7 +49,7 @@ const MemoryGame = ({ images }) => {
     if (isMatch) {
       // Mark matched cards
       const updatedCards = cards.map((card) => {
-        if (card.id !== first.id && card.imageURL === first.imageURL) {
+        if (card.id == first.id || card.id === second.id) {
           return { ...card, isMatched: true };
         }
         return card;
