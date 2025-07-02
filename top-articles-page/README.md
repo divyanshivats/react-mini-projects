@@ -23,38 +23,11 @@ Fully built using React functional components
 
 🔁 Async data fetching with fetch and useEffect
 
-🛠️ Getting Started
-bash
-Copy
-Edit
-# 1. Clone the repository
-git clone https://github.com/your-username/top-hackernews-articles.git
-
-# 2. Navigate to the project folder
-cd top-hackernews-articles
-
-# 3. Install dependencies
-npm install
-
-# 4. Start the development server
-npm start
-📁 Project Structure
-bash
-Copy
-Edit
-src/
-├── components/         # Reusable UI components
-├── hooks/              # Custom data-fetching hook
-├── pages/              # Page component for displaying articles
-├── services/           # API logic (fetchTopNewsId, getArticles)
-├── styles/             # CSS styles (dark theme, responsive layout)
-├── App.jsx
-└── index.js
 📚 API Reference
-🔗 Top Stories IDs
+Top Stories IDs
 https://hacker-news.firebaseio.com/v0/topstories.json
 
-🔗 Story Details
+Story Details
 https://hacker-news.firebaseio.com/v0/item/{id}.json
 
 💡 Future Improvements
