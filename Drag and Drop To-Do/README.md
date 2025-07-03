@@ -1,8 +1,31 @@
-# React + Vite
+## 📝 Drag and Drop To-Do (Kanban Board)
+A beautifully styled, responsive Kanban-style to-do list built with React and Dnd Kit.
+Organize tasks by dragging them between To Do, In Progress, and Done columns — or delete them via a drag-to-🗑️ trash zone.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌐 Live Demo
 
-Currently, two official plugins are available:
+## 🚀 Features
+✅ Add new tasks via input
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📝 Tasks appear under "To Do"
+
+## 🚚 Drag and drop tasks between columns:
+
+To Do
+
+In Progress
+
+Done
+
+## 🗑️ Drag tasks into a Trash Zone to delete them
+
+💡 Fully responsive layout (mobile/tablet/desktop)
+
+🌙 Dark theme with glowing effects and smooth transitions
+
+## 🛠️ Built With
+React
+
+@dnd-kit/core
+
+Custom CSS (no frameworks)
