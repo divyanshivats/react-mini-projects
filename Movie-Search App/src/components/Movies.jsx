@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Movies.css";
+import "./movies.css";
 
 const Movies = ({ data }) => {
   const [selectedMovie, setSelectedMovie] = useState(null);
