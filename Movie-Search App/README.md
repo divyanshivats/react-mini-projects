@@ -1,8 +1,27 @@
-# React + Vite
+# 🎬 Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, modern movie search app built with React and the TMDB API.  
+Search for your favorite movies, explore details like overview, release date, and ratings — all in an elegant, dark-themed UI.
 
-Currently, two official plugins are available:
+🌐 [Live Demo](https://movie-search-app-ruby-three.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## ✨ Features
+
+- 🔍 Search movies instantly using TMDB API
+- 🎞️ Display trending or searched movies in a responsive grid
+- 🖼️ Poster previews with hover animations
+- 📃 Scrollable movie overview on hover
+- 🌙 Dark glassmorphic UI
+- ⚡ Fast, clean, and mobile-responsive
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/movie-search-app.git
+cd movie-search-app
